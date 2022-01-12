@@ -19,6 +19,7 @@ public class OneTest extends Base {
 		driver = initializeDriver();
 		driver.get("https://www.google.co.in/");
 		System.out.println("This is One Test");
+		System.out.println("This is new line");
 		Assert.assertTrue(false);
 		
 	}
